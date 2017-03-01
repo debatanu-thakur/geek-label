@@ -1,0 +1,87 @@
+.geek-image, .design-image, .build-image, .both-image, .services-image,
+ .clients-image, .findus-image, .contact-image {
+    background-image: url(assets/labels_M.jpg);
+    width: 300px;
+    height: 200px;
+    background-size: cover;
+    transform: scale(1);
+}
+
+.geek-image {
+    background-position: 6% 3%;
+    top: 150px;
+}
+
+.geek-note {
+    top: 150px;
+    width: 300px;
+}
+
+.design-image, .build-image, .both-image {
+    top: 150px;
+}
+
+.design-note {
+    top: 100px;
+    position: relative;
+}
+
+.button::before {
+    display: block;
+}
+
+.web-dev, .web-design, .web-branding, .web-research {
+    background-image: url(assets/labels_M.jpg);
+    background-size: cover;
+    transform: scale(1);
+    display: none;
+}
+
+.services-content {
+    float: left;
+    width: 50%;
+}
+
+.column, .column-left, .column-right {
+    width: 100%;
+    height: 50px;
+    display: inline-block;
+}
+
+.findus .content h1 {
+    margin-bottom: 0;
+}
+
+.services-content h2 {
+    font-size: 1em;
+    position: relative;
+}
+
+.services .content::after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.services-content .column:first-child {
+    height: 0;
+}
+
+.p_gallery, .v_society, .pshe_association {
+    display: none;
+}
+
+.contact .content {
+    width: 300px;
+    padding: 0;
+}
+
+.contact .design-note {
+    position: initial;
+}
+
+.input-text, .input-text-area, .message {
+    width: 75%;
+}

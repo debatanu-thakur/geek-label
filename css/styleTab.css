@@ -1,0 +1,65 @@
+.geek-image, .design-image, .build-image, .both-image, .services-image,
+ .clients-image, .findus-image, .contact-image {
+    background-image: url(assets/labels_T.jpg);
+    width: 350px;
+    height: 150px;
+    background-size: cover;
+    transform: scale(1);
+}
+
+.geek {
+    background-color: #e61875;
+}
+
+.geek-image {
+    background-position: 6% 4%;
+    top: 15%;
+}
+
+.geek-note {
+    top: 15%;
+    width: 300px;
+    font-size: 1em;
+}
+
+.design-image {
+    top: 15%;
+}
+
+.design-note {
+    font-size: 1em;
+    top: 15%;
+    position: relative;
+}
+
+.build-image {
+    top: 15%;
+}
+
+.both-image {
+    top: 15%;
+}
+
+.web-dev, .web-design, .web-branding, .web-research, .p_gallery, .v_society, .pshe_association {
+    display: none;
+}
+.column, .column-left, .column-right, .services-content {
+    display: none;
+}
+
+.header {
+    font-size: 3em;
+    margin: 0;
+}
+
+.contact .content {
+    width: 100%;
+}
+
+.input-text {
+    height: 30px;
+}
+
+.input-text-area {
+    height: 50px;
+}
